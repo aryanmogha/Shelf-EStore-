@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+    font-family: 'Montserrat';
+}
+#title h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: 1000;
+}
+.tiimg{
+    text-align: right;
+}
+.btn-dark, .btn-outline-light, .pbn{
+    margin: 10px;
+    margin-left: 0px;
+    font-family: 'Montserrat';
+}
+.btnlog{
+    margin: 10px;
+    margin-left: 0px;
+    font-family: 'Montserrat';
+    width: 20%;
+}
+
+
+
+#cta{
+    background-color: rgb(22, 21, 21);
+    text-align: center;
+    padding: 120px 100px;
+}
+#cta h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: 1000;
+    padding: 50px 350px;
+}
+#footer{
+    text-align: center;
+    color: rgb(22, 21, 21);
+    padding: 170px;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+
+}
+#footer i{
+    padding: 18px;
+    color: black;
+}
+@media (max-width:1180px) and (min-width:992px) {
+    #iph{
+        transform: rotate(0);
+    }
+    #title .tht{
+        font-size: 45px;
+    }
+    #features{
+        padding: 110px 90px;
+    }
+    #features p{
+        padding: 20px 20px;
+        color: #8f8f8f;;
+    }
+    #testimonials h2{
+        font-size: 3.1rem;
+        font-weight: bold;
+        padding: 0px 100px;
+        line-height: 4rem;
+    } 
+    #cta h3{
+        padding: 30px 200px;
+    }
+}
+@media (max-width:991px) {
+    #iph{
+        transform: rotate(0);
+        padding: 30px;
+    }
+    #title .tht{
+        font-size: 50px;
+        text-align: center;
+    }
+    #title .row {
+        text-align: center;
+    }
+    .tiimg{
+        text-align: center;
+    }
+    #features{
+        padding: 110px 150px;
+    } 
+    #features .col-lg-4{
+        padding: 20px 10px;
+    }
+    #testimonials h2{
+        font-size: 2.9rem;
+        font-weight: bold;
+        padding: 0px 100px;
+        line-height: 4rem;
+    }
+    #cta h3{
+        padding: 30px 140px;
+    }
+}

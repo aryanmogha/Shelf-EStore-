@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+    background-color: rgb(22, 21, 21);;
+}
+:focus{
+    outline: none;
+}
+.form-control-label1{
+    margin-bottom: 5px;
+    color: #fff;
+    margin-left: 13px;
+}
+input[type=text] {
+    font-family: 'Montserrat';
+    background-color: rgb(22, 21, 21);
+    border: none;
+    border-bottom: 2px solid white;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    color: #ECF0F5;
+}
+input[type=password] {
+    background-color: rgb(22, 21, 21);
+    border: none;
+    border-bottom: 2px solid white;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    color: #ECF0F5;
+}
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 2px solid white;
+    outline: 0;
+    background-color:rgb(22, 21, 21);
+    color: #ECF0F5;
+}
+.tht{
+    margin-top: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: 1000;
+    text-align: center;
+}
+.btn-outline-light, .pbn{
+    margin: 10px;
+    margin-left: 0px;
+    font-family: 'Montserrat';
+    width: 100%;
+}
+.holder{
+    width: 600px;
+    background: white;
+    height: 900px;
+    margin: 50px auto;
+    outline: 5px solid white;
+}
+.holder .parent{
+    background-color: rgb(22, 21, 21);
+    width: calc(100% - 50px);
+    height: calc(100% - 50px);
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 7px;
+}
+.holder .parent h3{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+form{
+    display: block;
+    border-bottom: 1px dashed #ccc;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+form > div{
+    margin: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+form > div::before{
+    content:"\f007";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    color: #777;
+    left: -1px;
+}
+form > div:nth-child(2):before{
+    content:"\f2b6";
+}
+form > div:nth-child(3):before{
+    content:"\f023";
+}
+form > div:nth-child(4):before{
+    content:"\f023";
+}
+form div input{
+    border: none;
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+}

@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+    font-family: 'Montserrat';
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+#naa{
+    padding: 20px 0px;
+    padding-bottom: 60px;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Ubuntu';
+}
+.nav-item{
+    font-family: 'Ubuntu';
+    padding: 20px;
+    color: #fff;
+}
+#title{
+    background-color: rgb(22, 21, 21);
+}
+#title h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: 1000;
+}
+.tiimg{
+    text-align: right;
+}
+.btn-dark, .btn-outline-light, .pbn{
+    margin: 10px;
+    margin-left: 0px;
+    font-family: 'Montserrat';
+}
+.btnlog{
+    margin: 10px;
+    margin-left: 0px;
+    font-family: 'Montserrat';
+    width: 10%;
+}
+#iph{
+    width: 55%;
+    margin-top: 100px;
+    padding-right: 40px;
+    margin-left: 160px;
+}
+#iph:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#features{
+    padding: 150px;
+    text-align: center;
+    font-family: 'Montserrat';
+    background-color: white;
+}
+#features p{
+    padding: 20px 50px;
+    color: #8f8f8f;
+}
+#features h3{
+    font-weight: bolder;
+}
+.fim{
+    padding: 30px;
+}
+#features i{
+    color: rgb(22, 21, 21);
+}
+#features i:hover{
+    color: rgb(22, 21, 21);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#testimonials{
+    background-color: rgb(22, 21, 21);
+    text-align: center;
+    font-family: 'Montserrat';
+    color: #fff;
+    padding-top: 60px;
+}
+.form-group1{
+    margin-bottom: 30px;
+}
+.form-control-label1{
+    margin-bottom: 10px;
+    color: #fff;
+    margin-top: 20px;
+}
+.form-group2{
+    margin-bottom: 30px;
+}
+.form-control-label2{
+    margin-bottom: 10px;
+    color: #fff;
+}
+input[type=text] {
+    background-color: rgb(22, 21, 21);
+    border: none;
+    border-bottom: 2px solid white;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    color: #ECF0F5;
+}
+input[type=password] {
+    background-color: rgb(22, 21, 21);
+    border: none;
+    border-bottom: 2px solid white;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    color: #ECF0F5;
+}
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 2px solid white;
+    outline: 0;
+    background-color:rgb(22, 21, 21);
+    color: #ECF0F5;
+}
+.carousel-item{
+    padding: 100px 150px;
+}
+#testimonials h2{
+    font-size: 3.4rem;
+    font-weight: bold;
+    padding: 0px 100px;
+    line-height: 4.5rem;
+}
+.tesimg{
+    border-radius: 100%;
+    height: 100px;
+    margin: 20px;
+}
+.primg{
+    margin: 20px;
+    width: 14rem;
+}
+.pbn{
+    width: 100%;
+}
+.prcl{
+    padding: 3% 2%;
+    height: 100%;
+}
+#pricing{
+    padding: 150px 100px;
+    text-align: center;
+}
+#pricing p{
+    font-family: 'Montserrat';
+    color: #8f8f8f;
+}
+#pricing h2, h3{
+    font-weight: bold;
+}
+#pricing h2{
+    font-size: 3rem;
+}
+#cta{
+    background-color: rgb(22, 21, 21);
+    text-align: center;
+    padding: 120px 100px;
+}
+#cta h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: 1000;
+    padding: 50px 350px;
+}
+#footer{
+    text-align: center;
+    color: rgb(22, 21, 21);
+    padding: 170px;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+
+}
+#footer i{
+    padding: 18px;
+    color: black;
+}
+.nav-item{
+    color: #fff;
+}
+@media (max-width:1180px) and (min-width:992px) {
+    #iph{
+        transform: rotate(0);
+    }
+    #title .tht{
+        font-size: 45px;
+    }
+    #features{
+        padding: 110px 90px;
+    }
+    #features p{
+        padding: 20px 20px;
+        color: #8f8f8f;;
+    }
+    #testimonials h2{
+        font-size: 3.1rem;
+        font-weight: bold;
+        padding: 0px 100px;
+        line-height: 4rem;
+    } 
+    #cta h3{
+        padding: 30px 200px;
+    }
+}
+@media (max-width:991px) {
+    #iph{
+        transform: rotate(0);
+        padding: 30px;
+    }
+    #title .tht{
+        font-size: 50px;
+        text-align: center;
+    }
+    #title .row {
+        text-align: center;
+    }
+    .tiimg{
+        text-align: center;
+    }
+    #features{
+        padding: 110px 150px;
+    } 
+    #features .col-lg-4{
+        padding: 20px 10px;
+    }
+    #testimonials h2{
+        font-size: 2.9rem;
+        font-weight: bold;
+        padding: 0px 100px;
+        line-height: 4rem;
+    }
+    #cta h3{
+        padding: 30px 140px;
+    }
+}
